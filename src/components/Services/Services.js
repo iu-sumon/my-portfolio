@@ -8,7 +8,7 @@ const Services = () => {
             <h2>Services</h2>
             <div className='container services__container'>
 
-                <div className='card'>
+                <div className='card_service'>
                     <div className='card_icon'>
                         <i class="fa fa-code"></i>
                     </div>
@@ -18,7 +18,7 @@ const Services = () => {
                         <a className='btn btn-primary' href="#contact">Let's Talk</a>
                     </div>
                 </div>
-                <div className='card'>
+                <div className='card_service'>
                     <div className='card_icon'>
                     <i class="fa fa-palette"></i>
                     </div>
@@ -28,7 +28,7 @@ const Services = () => {
                         <a className='btn btn-primary' href="#contact">Let's Talk</a>
                     </div>
                 </div>
-                <div className='card'>
+                <div className='card_service'>
                     <div className='card_icon'>
                     <i class="fa fa-mobile-alt"></i>
                     </div>
