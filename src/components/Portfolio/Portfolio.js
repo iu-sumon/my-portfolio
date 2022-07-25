@@ -64,7 +64,9 @@ const Portfolio = () => {
                     slideShadows: true,
                 }}
                 pagination={true}
-                modules={[EffectCoverflow, Pagination, Autoplay]}
+                modules={[EffectCoverflow, Pagination]} 
+                
+                // , Autoplay
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -129,10 +131,10 @@ const Portfolio = () => {
                                 <h2>Mountain Bike</h2>
                             </div>
                             <div class="card_back">
-                                <a className='btn' href="/">Live</a>
-                                <a className='btn' href="/">Client</a>
-                                <a className='btn' href="/">Server</a>
-                                <a className='btn' href="/">Details</a>
+                                <a className='back_button' href="/">Live</a>
+                                <a className='back_button' href="/">Client</a>
+                                <a className='back_button' href="/">Server</a>
+                                <a className='back_button' href="/">Details</a>
                             </div>
                         </div>
 

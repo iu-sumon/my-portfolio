@@ -1,5 +1,5 @@
 nav {
-    background: #f021b2;
+    background:var(--color-primary);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;

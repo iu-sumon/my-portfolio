@@ -12,8 +12,10 @@
 
 :root {
     --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #f021b2;
+   --color-bg-variant: #432A64;
+    /* --color-bg-variant: #2c2c6c; */
+    --color-primary: #F7A940;
+    /* --color-primary: #f021b2; */
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
@@ -72,7 +74,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-   
+
 }
 
 section>h2,
@@ -128,29 +130,30 @@ img {
     overflow: hidden;
 
 }
+
 /* ===========================Swiper Styles============================== */
 .swiper {
     width: 80%;
     height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
-   
-  }
-  
-  .swiper-slide {
+
+}
+
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-    
-  }
-  
-  .swiper-slide img {
+
+}
+
+.swiper-slide img {
     display: block;
     width: 100%;
-   
-  }
-  
+
+}
+
 /* ===========MEDIA QUERIES (sm)========= */
 @media screen and (max-width:600px) {
     .container {
