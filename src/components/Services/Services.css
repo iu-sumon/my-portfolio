@@ -32,6 +32,7 @@
     margin: 0 auto 30px;
     text-align: center;
     transition: all 0.3s ease;
+    background: var(--color-primary);
 }
 
 .card_icon .fa {
@@ -39,15 +40,6 @@
     line-height: 75px;
     color: var(--color-white);
 }
-
-.card:hover .card_icon {
-    background: var(--color-primary);
-}
-
-.card:hover .card_icon .fa {
-    font-size: 25px;
-}
-
 .card_btn {
     margin-top:20px;
     text-align: center;

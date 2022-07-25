@@ -38,8 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
-
+    background: url("https://s3.amazonaws.com/ritalbradley-dev-photos/twinkle-back.gif");
 
 }
 

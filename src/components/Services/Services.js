@@ -20,7 +20,7 @@ const Services = () => {
                 </div>
                 <div className='card_service'>
                     <div className='card_icon'>
-                    <i class="fa fa-palette"></i>
+                        <i class="fa fa-palette"></i>
                     </div>
                     <h3>Web Design</h3>
                     <p>I believe this the most easiest and fastest way to build a website with it's built in functionality. Less Cost, Less work and trusted</p>
@@ -30,7 +30,7 @@ const Services = () => {
                 </div>
                 <div className='card_service'>
                     <div className='card_icon'>
-                    <i class="fa fa-mobile-alt"></i>
+                        <i class="fa fa-mobile-alt"></i>
                     </div>
                     <h3>App Development</h3>
                     <p>I believe this the most easiest and fastest way to build a website with it's built in functionality. Less Cost, Less work and trusted</p>
