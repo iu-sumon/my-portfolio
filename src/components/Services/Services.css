@@ -1,0 +1,82 @@
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.services__container>div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.services__container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.services__container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.card_icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card_icon .fa {
+    font-size: 40px;
+    line-height: 75px;
+    color: var(--color-white);
+}
+
+.card:hover .card_icon {
+    background: var(--color-primary);
+}
+
+.card:hover .card_icon .fa {
+    font-size: 25px;
+}
+
+.card_btn {
+    margin-top:20px;
+    text-align: center;
+}
+
+/* ===========MEDIA QUERIES (md)========= */
+@media screen and (max-width:1024px) {
+    .services__container {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .services__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    
+}
+
+/* ===========MEDIA QUERIES (sm)========= */
+@media screen and (max-width:600px) {
+    .services__container {
+       gap:1rem;
+       
+    }
+
+    .services__container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+        
+    }
+}
