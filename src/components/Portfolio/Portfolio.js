@@ -1,16 +1,15 @@
 import React from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 import { BsPatchCheckFill } from 'react-icons/bs';
 import p1 from '../../assets/portfolio1.jpg'
-
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -143,7 +142,8 @@ const Portfolio = () => {
                         </div>
 
                     </SwiperSlide>
-                    <SwiperSlide>
+
+                    {/* <SwiperSlide>
                         <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt='' />
                     </SwiperSlide>
                     <SwiperSlide>
@@ -154,7 +154,7 @@ const Portfolio = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt='' />
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
                 </Swiper>
             </div>
