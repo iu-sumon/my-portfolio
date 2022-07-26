@@ -22,7 +22,8 @@
      overflow: hidden;
      transform: rotate(10deg);
      transition: var(--transition);
-      
+     position: relative;
+     z-index: 5;
  }
 
  .about__me-image:hover {
@@ -50,48 +51,47 @@
  /* ===========MEDIA QUERIES (md)========= */
  @media screen and (max-width:1024px) {
 
-    .about__container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
+     .about__container {
+         grid-template-columns: 1fr;
+         gap: 0;
+     }
 
-    .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-    .info__contacts
-    {
-        
-        text-align: center;
+     .about__me {
+         width: 50%;
+         margin: 2rem auto 4rem;
+     }
 
-    }
-    .about__content h1
-    {
-        text-align: center;
-    }
+     .info__contacts {
+
+         text-align: center;
+
+     }
+
+     .about__content h1 {
+         text-align: center;
+     }
  }
 
  /* ===========MEDIA QUERIES (sm)========= */
  @media screen and (max-width:600px) {
-    .about__me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-    .about__content h1
-    {
-        text-align: center;
-    }
+     .about__me {
+         width: 65%;
+         margin: 0 auto 3rem;
+     }
 
-    .about__content p
-    {
-       font-size: 15px;
-       padding:20px;
-    }
-    .info__contacts
-    {
-        margin-top: 0;
-       text-align: center;
+     .about__content h1 {
+         text-align: center;
+     }
 
-    }
-     
+     .about__content p {
+         font-size: 15px;
+         padding: 20px;
+     }
+
+     .info__contacts {
+         margin-top: 0;
+         text-align: center;
+
+     }
+
  }
