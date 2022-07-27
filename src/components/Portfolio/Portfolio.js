@@ -7,7 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination,Autoplay} from "swiper";
 import { BsPatchCheckFill } from 'react-icons/bs';
 import p1 from '../../assets/portfolio1.jpg'
 import './Portfolio.css'
@@ -64,9 +64,9 @@ const Portfolio = () => {
                         slideShadows: true,
                     }}
                     pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
+                    modules={[EffectCoverflow, Pagination,Autoplay]}
 
-                    // , Autoplay
+                    
                     className="mySwiper"
                 >
                     <SwiperSlide>

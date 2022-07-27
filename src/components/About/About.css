@@ -2,6 +2,7 @@
      display: grid;
      grid-template-columns: 35% 50%;
      gap: 15%;
+
  }
 
  .about__me {
@@ -14,7 +15,8 @@
              transparent);
      display: grid;
      place-items: center;
-     margin-top: 5rem;
+     margin-top: 2rem;
+
  }
 
  .about__me-image {
@@ -31,7 +33,7 @@
  }
 
  .info__contacts {
-     margin-top: 20px;
+     margin-top: 5px;
  }
 
  .info__contacts strong {
@@ -47,12 +49,16 @@
      margin: 10px 0;
  }
 
+ .info-btn {
+     display: flex;
+     gap: 10px;
+ }
 
  /* ===========MEDIA QUERIES (md)========= */
  @media screen and (max-width:1024px) {
 
      .about__container {
-         grid-template-columns:1fr;
+         grid-template-columns: 1fr;
          gap: 0;
      }
 
@@ -60,14 +66,7 @@
          width: 50%;
          margin: 2rem auto 4rem;
      }
-
-     .info__contacts {
-
-         text-align: center;
-
-     }
-
-     .about__content h1 {
+.about__content h1 {
          text-align: center;
      }
  }
@@ -94,4 +93,8 @@
 
      }
 
+     .info-btn {
+         justify-content: center;
+         align-items: center;
+     }
  }

@@ -1,7 +1,6 @@
  .card {
      width: 410px;
      height: 500px;
-     border: 2px solid red;
      padding: 10px;
      margin: 0 auto;
      perspective: 1000px;
@@ -34,7 +33,7 @@
  }
 
  .card_front {
-     background: var(--color-bg-variant);
+    border: 1px solid var(--color-primary-variant);
      color: var(--color-white);
  }
 
@@ -77,7 +76,7 @@
     padding-top: 10px;
  }
  .back_button:hover {
-    background-color:#00F700;
+    background-color:var(--color-primary);
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
@@ -105,7 +104,7 @@
     .card {
         width: 300px;
         height: 450px;
-        border: 2px solid yellow;
+        
     }
     .card_front_body {
        
@@ -118,9 +117,8 @@
  @media screen and (max-width:600px) {
     
      .card {
-        width: 300px;
-        height: 450px;
-        border: 2px solid cyan; 
+        width:100%;
+         
     }
     .card_front_body {
        

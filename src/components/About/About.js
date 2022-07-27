@@ -8,10 +8,8 @@ const About = () => {
     const [state] = React.useState([
         { id: 1, title: "M.Sc:", text: "CSE" },
         { id: 2, title: "B.Sc:", text: "CSE" },
-        { id: 3, title: "Email:", text: "md.sumon35855@gmail.com" },
-        { id: 4, title: "Phone:", text: "+8801749036855" },
-        { id: 5, title: "City", text: "Rangpur,Dhaka,Bangladesh" },
-        { id: 6, title: "Freelance", text: "Available" },
+        { id: 3, title: "City", text: "Rangpur, Dhaka, Bangladesh" },
+        { id: 4, title: "Freelance", text: "Available" },
     ]);
 
 
@@ -47,8 +45,12 @@ const About = () => {
                         </div>
 
                     </div>
-
+                    <div className='info-btn'>
+                        <a className='btn' href="https://drive.google.com/file/d/1YqSDZ7A6XEvOFRup115v_PZfKcIzdFRQ/view?usp=sharing" target="blank"> Resume</a>
+                        <a className='btn btn-primary' href="#contact">Hire me</a>
+                    </div>
                 </div>
+
 
             </div>
         </section>

@@ -1,35 +1,83 @@
 nav {
-    background:var(--color-primary);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    position: fixed;
+    display: inline-flex;
+    width:max-content;
     left: 50%;
     transform: translateX(-50%);
-    top: 2rem;
+    text-align: center;
+    position: fixed;
+    top: 1rem;
+    z-index: 100;
+    background:var(--color-light);
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    
+}
+
+nav .icon {
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav .icon a {
+    position: relative;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
     display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(25px);
-    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 87%, 3%, 0.852);
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
-nav a {
-    background: transparent;
-    padding: 0.2rem .7rem;
-    border-radius: 3rem;
-    display: flex;
-    color: var(--color-white);
-    font-size: 1.1rem;
+nav .icon a .react-icon {
+    font-size: 23px;
+    font-weight:bolder ;
+    line-height: 50px;
 
-}
-
-nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
 
 }
 
+nav .icon .tooltip {
+    position: absolute;
+    bottom: -50px;
+    background:var(--color-primary);
+    color:var(--color-white);
+    font-size: 15px;
+    padding:2px 5px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    z-index:50;
+}
+
+nav .icon:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+nav .icon .tooltip:before {
+    position: absolute;
+    content: "";
+    width:20px;
+    height:20px;
+    background:var(--color-primary);
+    top: -8px;
+    left: 20px;
+    transform: translateX(-50%) rotate(45deg);
+   z-index:-2;
+}
 nav a.active {
-    background: var(--color-bg);
-    color: var(--color-white);
+    
+    background: var(--color-primary);
+   
 }

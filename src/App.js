@@ -12,8 +12,8 @@ import Services from './components/Services/Services';
 const App = () => {
     return (
         <>
-            <Header/>
             <Nav/>
+            <Header/>
             <About/>
             <Experience/>
             <Services/>
