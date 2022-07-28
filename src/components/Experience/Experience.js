@@ -16,42 +16,42 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Expertise</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>CSS</h4>
+                <small className='text-light'>Expertise</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>BootStrap</h4>
+                <small className='text-light'>Expertise</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Tailwind</h4>
+                <small className='text-light'>Expertise</small>
               </div>
             </article>
           </div>

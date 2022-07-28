@@ -1,8 +1,9 @@
 import React from 'react';
 import './About.css'
 import Me from '../../assets/me3.jpg'
-import { MdOutlineEmail } from 'react-icons/md';
-import { BsMessenger, BsWhatsapp } from 'react-icons/bs';
+import { FaTools } from 'react-icons/fa';
+import { FaDonate } from 'react-icons/fa';
+import { BsFillPeopleFill } from 'react-icons/bs';
 
 const About = () => {
 
@@ -55,26 +56,39 @@ const About = () => {
 
             </div>
 
-            <div className=" container choose__container">
-                <h2>Why Choose Me</h2>
+            <div className='container'>
 
-                <div className="choose__options">
-                    <article className="choose__option">
-                        <MdOutlineEmail className='choose__option_icon' />
-                        <h4>Innovative and Passionate</h4>
+                <h2>Why Choose me</h2>
+
+                <div className='choose__container'>
+
+                    <div className='choose__card'>
+
+                        <div className='choose_icon'>
+                            <FaTools className='icn' />
+                        </div>
+
+                        <h3>Innovative and Passionate</h3>
                         <p>I am fully aware of the importance of designing for the digital age and strive to deliver the best result for our clients.</p>
-                    </article>
-                    <article className="choose__option">
-                        <BsMessenger className='choose__option_icon' />
-                        <h4>Good Return on Investment</h4>
+
+                    </div>
+                    <div className='choose__card'>
+                        <div className='choose_icon'>
+                            <FaDonate className='icn' />
+                        </div>
+                        <h3>Good Return on Investment</h3>
                         <p>Working with me means providing your business with great savings.All my web development packages are being offered at competitive prices.</p>
-                    </article>
-                    <article className="choose__option">
-                        <BsWhatsapp className='choose__option_icon' />
-                        <h4>Seamless Customer Support</h4>
+
+                    </div>
+                    <div className='choose__card'>
+                        <div className='choose_icon'>
+                            <BsFillPeopleFill className='icn' />
+                        </div>
+                        <h3>Seamless Customer Support</h3>
                         <p>We are always here to help you with any questions you may have.</p>
 
-                    </article>
+
+                    </div>
                 </div>
             </div>
 
