@@ -20,6 +20,6 @@
   .cursor-dot-outline {
     width: 20px;
     height: 20px;
-    background-color:#ca276e;
+    background-color:var(--color-primary);
   }
   

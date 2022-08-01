@@ -7,20 +7,22 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Nav from './components/Nav/Nav';
 import Portfolio from './components/Portfolio/Portfolio';
+ 
 import Services from './components/Services/Services';
 
 const App = () => {
     return (
         <>
-            <Nav/>
-            <Header/>
-            <About/>
-           <Experience/>
-            <Services/>
-            <Portfolio/>
-            <Contact/>
-            <Footer/>
-            <Cursor/>
+            <Nav />
+            <Header />
+           
+            <About />
+            <Experience />
+            <Services />
+            <Portfolio />
+            <Contact />
+            <Footer />
+            <Cursor />
         </>
     );
 };
